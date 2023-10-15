@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    <header>
+        <nav class="nav-container">
+            <h2>Portfolio</h2>
+            <div class="nav-bar">
+                <ul>
+                    <li><a href="./">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+    <section>
+        <div class="heading-container">
+            <div class="heading-content">
+                <h2>Hello,It's Me</h2>
+                <h1>Viswanand Baddala</h1>
+                <h2>And I'm a <span style="color: aqua;">Frontend Developer</span></h2>
+                <p>A skilled frontend developer is adept at crafting captivating and interactive
+                   web experiences. With expertise in HTML, JavaScript, and CSS, they have the ability
+                   to transform design concepts into responsive, user-friendly websites. Their portfolio
+                   showcases a diverse range of projects, demonstrating their prowess in creating visually 
+                   appealing user interfaces, seamlessly integrating interactive features through JavaScript, and ensuring the content's stylish presentation through CSS</p>
+                <div class="icons">
+                    <i class='bx bxl-facebook'></i>
+                    <i class='bx bxl-twitter'></i>
+                    <i class='bx bxl-instagram' ></i>
+                    <i class='bx bxl-linkedin' ></i>
+
+                </div>
+                <button type="button"><a href="https://drive.google.com/file/d/1ONZL7HlVOuQIrFGK49EgPFNMoKBeZCdo/view?usp=sharing" download="Resume_file" style="text-decoration: none; color: black;">Download CV</a> </button>
+            </div>
+            <div class="heading-image">
+                <img src="./IMG20200516111539.jpg" width="270px" height="270px"/>            
+            </div>
+        </div>
+        
+    </section>
+    <section class="about" id="about">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="./IMG20200516111539.jpg" width="270px" height="270px"/>
+            </div>
+            <div class="about-content">
+                <h1>About <span style="color: aqua;">Me</span></h1>
+                <h2 style="color: aqua;">Frontend Developer</h2>
+                <p>
+                    A skilled frontend developer is adept at crafting captivating and interactive
+                   web experiences. With expertise in HTML, JavaScript, and CSS, they have the ability
+                   to transform design concepts into responsive, user-friendly websites. Their portfolio
+                   showcases a diverse range of projects, demonstrating their prowess in creating visually 
+                   appealing user interfaces, seamlessly integrating interactive features through JavaScript, 
+                   and ensuring the content's stylish presentation through CSS
+                </p>
+                <button type="button">Read More</button>
+            </div>
+        </div>
+    </section>
+    <section  class="service" id="services">
+        <div class="service-container">
+            <h1>Our <span>Services</span></h1>
+            <div class="service-content">
+                <div>
+                    <i class='bx bx-purchase-tag'></i>
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</br> 
+                        Officiis provident tempore consequuntur, sfjsfshs sdfhs
+                    </p>
+                    <button type="button">Read More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <h1>Latest <span>Projects</span></h1>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="./Images/project1 Image.png" width="400px" height="250px"/>
+                <div class="portfolio-layer">
+                    <h2>Shop Cart App</h2>
+                    <p>It deals with shopping of different products with user authentication . 
+                        and dummy payment method </p>
+                    <a href="https://github.com/Viswabaddala16/ShopCart-App-Project" style="color: black;"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./Images/project2 Image.png" width="400px" height="250px"/>
+                <div class="portfolio-layer">
+                    <h2>React Dictonary App</h2>
+                    <p>It deals with dictonary  for different words in english with different
+                        part of speech like verb,adverb etc.
+                    </p>
+                    <a href="https://github.com/Viswabaddala16/React-Dictionary-App" style="color: black;"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./Images/project3 Image.png"  width="400px" height="250px"/>
+                <div class="portfolio-layer">
+                    <h2>Todo List</h2>
+                    <p>It deals with making effencient tasks list by order of priority and organcy </p>
+                    <a href="https://github.com/Viswabaddala16/Todo-List" style="color: black;"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact Me</h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Enter Your Full Name" value="Full Name"/>
+                <input type="email" placeholder="Enter Your Email Address" value="Email Address"/>                
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Enter Your Mobile Number" value="Mobile Number"/>
+                <input type="text" placeholder="Email Subject" value="Email Subject "/>                
+            </div>
+            <textarea id="" class="" rows="10" cols="30" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn"/>
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="footer-text">
+            <p>CopyWrite &copy By Viswanand | All Rights Are Reserved</p>
+        </div>
+        <div class="footer-topIcon">
+            <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>

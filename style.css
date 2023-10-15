@@ -1,0 +1,508 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Poppins:ital,wght@0,300;1,300;1,400;1,500&display=swap');
+html body{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none; 
+   font-family: 'Poppins', sans-serif;
+   
+}
+
+.nav-container{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 100vw;
+    padding: 1rem;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    position: fixed;
+    border-bottom:3px solid #041522;
+}
+.header{
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.header .sticky{
+    border-bottom: 1px solid rgb(248, 227, 227);
+}
+.nav-container h2{
+    margin-left: 1.5rem;
+}
+.nav-bar{
+    /* border: 2px solid blue; */
+}
+.nav-bar ul{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin-right: 1rem;
+}
+.nav-bar li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: white;
+}
+.nav-bar li a:hover{
+    color: aqua;
+    transition: .5s ease;
+}
+/* ---------heading content ---- */
+.heading-container{
+    /* border: 4px solid rgb(233, 23, 212); */
+    width: 100vw;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 5rem 1rem 5rem;
+    background-color: black;
+    color: white;
+}
+.heading-content{
+    /* border: 2px solid rgb(51, 216, 231); */
+    display: flex;
+    flex-direction: column;
+    
+    
+
+}
+.heading-content button{
+    margin-top: 1rem;
+    width: 25%;
+    padding: .5rem;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    font-weight: 550;
+    text-align: center;
+    background: aqua;
+}
+.heading-content h2{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: .25rem;
+}
+h1{
+    font-weight: 500;
+    font-size: 2rem;
+    margin-bottom: .25rem;
+}
+.heading-content p{
+    font-size: 1.2rem;
+    font-weight: 550;
+}
+.icons{
+    /* border: 2px solid orange; */
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    
+}
+.icons i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: #414541;
+    color: aqua;
+    padding: 20px;
+    outline: 2px solid aqua;
+    text-align: center;    
+    font-size : 1.5rem;
+}
+.heading-image{
+    /* border: 3px solid green; */
+    transition: .5s ease;
+}
+.heading-image img{
+    border-radius: 50%;
+    transform: translate(rotate('120'));
+    
+}
+/* -----About page Styling ---- */
+
+.about-container{
+    /* border: 3px solid green; */
+    padding: 2rem;
+    height: 600px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #041522;
+    color: white;
+
+}
+.about-image{
+    /* border: 2px solid aqua; */
+    transition: .5s ease ;
+    position: relative;
+    
+}
+.about-image img{
+    border-radius: 50%;
+    position: relative;
+    left: 2rem;
+    
+}
+.about-content{
+    /* border: 2px solid red; */
+    position: relative;
+    left: -1.5rem;
+    left: 4rem;
+}
+.about-content button{
+    margin-top: 1rem;
+    width: 25%;
+    padding: .5rem;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    font-weight: 550;
+    text-align: center;
+    background: aqua;
+}
+.about-content h2{
+    font-size: 1.5rem;
+    font-weight: 550;
+    margin-bottom: .5rem;
+}
+.about-content h1{
+    font-size: 2.5rem;
+    font-weight: 550;
+    margin-bottom: .5rem;
+}
+.about-content p{
+    font-size: 1.2rem;
+    font-weight: 550;
+
+}
+/* -------sevice styling --- */
+.service-container{
+    /* border: 2px solid red; */
+    width: 100vw;
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+   
+}
+.service-container:hover{
+    outline: 2px solid #fbf9f9;
+    cursor: pointer;
+    transition: .5s ease;
+}
+.service-container h1{
+    margin-top: 2rem;
+   position: relative;
+   bottom: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 550;
+
+}
+.service-content{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -3rem;
+}
+.service-content div{
+    background: rgba(33, 32, 32,.9);
+    border-radius: 1rem;
+    padding: 1rem 1.5rem;
+    position: relative;
+    height: 13rem;
+}
+.service-content div i{
+    font-size: 2.5rem !important;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.service-content div i,h3{
+    font-size: 1.2rem;
+    text-align: center;
+}
+.service-content div p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 2rem;
+}
+.service-content div button{
+    margin-top: 1rem;
+    width: 25%;
+    padding: .5rem;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    font-weight: 550;
+    background: aqua;
+    position: absolute;   
+    bottom: 1rem;
+    left: 35%;
+    cursor: pointer;
+
+}
+
+/* -----portflio ------ */
+.portfolio{
+    background-color: #041522;
+    width: 100vw;
+    padding: 3rem;
+    height: 600px;
+
+}
+.portfolio h1{
+    margin-bottom: 5rem;
+    color: white;
+    text-align: center;
+    
+}
+.portfolio-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2.5rem;
+    align-items: center;
+    margin-top: -2.5rem;
+}
+.portfolio-container .portfolio-box{
+    display: flex;
+    border-radius: 2rem;
+    overflow: hidden;
+    box-shadow: 0 0 1rem rgb(50, 49, 49);
+    position: relative;
+}
+.portfolio-box img{
+    width: 100%;
+    transition: .5s ease;
+}
+.portfolio-box:hover img{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.portfolio-box .portfolio-layer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(0,0,0,.1),aqua);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: .5rem .75rem;
+    transform: translateY(100%);
+    transition: .5s ease;
+}
+.portfolio-box:hover .portfolio-layer{
+    transform: translateY(0);
+}
+.portfolio-layer h2{
+    font-size: 2rem;
+}
+.portfolio-layer p{
+    font-size: 1.3rem;
+    margin: .1rem .1rem;
+}
+.portfolio-layer a{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.portfolio-layer a i{
+    font-size: 1.4rem;
+}
+
+/* ---contact page --- */
+.contact{
+    background: black;
+    color: white;
+    margin-bottom: 2rem;
+    text-align: center;
+    padding-top: 1rem;
+    width: 100vw;
+    height: 700px;
+    margin: 0;
+   
+}
+.contact h2{
+    
+    font-size: 2rem;
+}
+.contact form{
+    width: 70rem;
+    
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.contact form .input-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact form .input-box input,
+.contact form textarea{
+    width: 100%;
+    margin-bottom: 2rem;
+    padding: .5rem;
+    border-radius: .5rem;
+    margin: .7rem 0;
+    font-size: 1.2rem;
+    
+}
+.contact form .input-box input{
+    width: 49%;
+}
+.contact form .btn{
+    width: 20%;
+    padding: .5rem;
+    font-size: 1.3rem;
+    border-radius: 1.9rem;
+    background: aqua;
+    margin-bottom: 1rem;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    margin-top: 0;
+    background-color: #041522;
+}
+.footer .footer-text p{
+    font-size: 1.2rem;
+}
+.footer-topIcon a{
+    display: inline-flex;
+    background-color: aqua;
+    padding: .5rem;
+    border-radius: 5px;
+    transition: .5s ease;
+}
+.footer-topIcon a i{
+    font-size: 1.4rem;
+    
+}
+.footer-topIcon a:hover{
+    box-shadow: 0px 0px 2rem rgb(193, 193, 200);
+}
+
+/* ----media querires--- */
+
+@media (max-width: 700px) {
+    .nav-container {
+        padding: 0.5rem;
+    }
+    .nav-container h2 {
+        margin-left: 0.5rem;
+        font-size: 1.2rem;
+    }
+    .nav-bar ul {
+        margin-right: 0.5rem;
+    }
+    .nav-bar li a {
+        font-size: 1rem;
+    }
+    .heading-container {
+        padding: 1rem;
+    }
+    .about-container .about-image img{
+        width: 130px !important;
+        height: 130px !important;
+        position: relative;
+        left: .5rem;
+    }
+    .about-content{
+        margin-left: 2rem;
+    }
+ 
+    .about-content h1{
+        font-size: 1.5rem;
+    }
+    .about-content h2{
+        font-size: 1rem;
+    }
+    .about-content p{
+        font-size: .55rem;
+    }
+    .about-container button{
+        margin-top: -.5rem;
+        font-size: .55rem;
+        padding: .15rem .23rem;
+    }
+    /* Adjust other styles as needed for smaller screens */
+}
+
+/* Media query for screens with a maximum width of 900px (e.g. tablets) */
+@media (max-width: 900px) {
+    .nav-container {
+        padding: 1rem;
+    }
+    .nav-container h2 {
+        font-size: 1.5rem;
+    }
+    .nav-bar ul {
+        margin-right: 1rem;
+    }
+    .nav-bar li a {
+        font-size: 1.2rem;
+    }
+    /* Adjust other styles as needed for larger but still small screens */
+}
+@media (max-width: 1200px){
+    html{
+        font-size: 55%;
+    }
+}
+@media (max-width: 991px){
+    header{
+        padding: 2rem 3%;
+        background-color: black;
+    }
+    section{
+        padding: 10rem 3% 2rem;
+        background-color: black;
+    }
+    footer{
+        padding: 2rem 3%;
+    }
+}
+@media (max-width: 768px){
+    .menu-item{
+        display: block;
+    }
+    .nav-container{
+        position: absolute;
+        top: 0%;
+        left: 0;
+        width: 100%;
+        padding: 1rem;
+    }
+}
